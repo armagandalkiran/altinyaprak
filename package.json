@@ -1,7 +1,6 @@
 {
   "name": "altinyaprak",
   "version": "1.0.0",
-  "description": "",
   "main": "tailwind.config.js",
   "dependencies": {
     "autoprefixer": "^10.3.4",
@@ -21,5 +20,7 @@
   "bugs": {
     "url": "https://github.com/armagandalkiran/altinyaprak/issues"
   },
-  "homepage": "https://github.com/armagandalkiran/altinyaprak#readme"
+  "homepage": "https://github.com/armagandalkiran/altinyaprak#readme",
+  "keywords": [],
+  "description": ""
 }
