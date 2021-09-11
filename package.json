@@ -1,0 +1,25 @@
+{
+  "name": "altinyaprak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build:css": "tailwind build -i src/style.css -o dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armagandalkiran/altinyaprak.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/armagandalkiran/altinyaprak/issues"
+  },
+  "homepage": "https://github.com/armagandalkiran/altinyaprak#readme"
+}

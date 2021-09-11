@@ -1,67 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;800&display=swap");
 
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.rotateAnimation90{
+    transform:rotate(90deg);
+    transition:all .4s ease-out;
 }
 
-:root {
-    --primary-color: #86B537;
-  }
-
-h1{
-    width:fit-content;
+.rotateAnimationReverse90{
+    transform:rotate(0deg);
+    transition:all .4s ease-out;
 }
 
-body {
-    font-family: "Montserrat", sans-serif;
-    box-sizing: border-box;
-    background-color:#ffffff;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    height:100vh;
+
+.btn{
+    border-width:.5px;
 }
 
-.header__text-box {
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    color:var(--primary-color);
-    margin-bottom:1rem;
+.btn-primary{
+    @apply p-2 border-tertiary text-primary uppercase hover:text-white hover:bg-secondary transition ease-out duration-300;
 }
 
-.header__loading-icon{
-    margin-left:1rem;
-    font-size:2rem;
+.divider{
+    width:100%;
+    position:relative;
+    text-align:center;
 }
 
-.header__brand-box{
-    text-align: right;
-    color:#696969;
-}
-
-.header__brand-name{
-    text-decoration: none;
-    font-weight:bold;
-    color:#696969;
-}
-
-.header__brand-name:hover{
-    text-decoration:underline;
-}
-
-@media (max-width: 768px) {
-
-    h1{
-        font-size:1rem;
-    }
-
-    .header__brand-box{
-        font-size:0.8rem;
-    }
+.divider:before{
+    content:"";
+    position:absolute;
+    left:0;
+    display:block;
+    top:50%;
+    width:65px;
+    background-color:#83781B;
+    height:1px;
+   
 
 }
+
+.divider:after{
+    content:"";
+    position:absolute;
+    right:0;
+    top:50%;
+    width:65px;
+    background-color:#83781B;
+    height:1px;
+    
+} 
