@@ -33506,6 +33506,10 @@ video {
   content: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .rotateAnimation90{
   transform:rotate(90deg);
   transition:all .4s ease-out;
@@ -33564,7 +33568,7 @@ video {
   left:0;
   display:block;
   top:50%;
-  width:65px;
+  width:4rem;
   background-color:#83781B;
   height:1px;
 }
@@ -33574,7 +33578,7 @@ video {
   position:absolute;
   right:0;
   top:50%;
-  width:65px;
+  width:4rem;
   background-color:#83781B;
   height:1px;
 }

@@ -4,6 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+}
 
 .rotateAnimation90{
     transform:rotate(90deg);
@@ -36,7 +39,7 @@
     left:0;
     display:block;
     top:50%;
-    width:65px;
+    width:4rem;
     background-color:#83781B;
     height:1px;
    
@@ -48,7 +51,7 @@
     position:absolute;
     right:0;
     top:50%;
-    width:65px;
+    width:4rem;
     background-color:#83781B;
     height:1px;
     
