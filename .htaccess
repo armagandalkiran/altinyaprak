@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /
-RewriteCond %{HTTP_HOST} !^altinyaprak.com$ [NC]
-RewriteRule ^(.*)$ http://altinyaprak.com/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} !^www.altinyaprak.com$ [NC]
+RewriteRule ^(.*)$ http://www.altinyaprak.com/$1 [L,R=301]
+
 
